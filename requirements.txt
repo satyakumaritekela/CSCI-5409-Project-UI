@@ -1,0 +1,13 @@
+flask
+
+flask_material
+
+flask_cors
+
+pymongo
+
+datetime
+
+requests
+
+mysql-connector-python==8.0.17

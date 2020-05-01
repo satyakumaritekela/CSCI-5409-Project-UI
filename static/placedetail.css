@@ -1,0 +1,47 @@
+.destination_wrap {
+    background-image: url(destination.jpg);
+    padding: 250px 0;
+    background-size: cover;
+    background-position: center center;
+}
+
+.overlay {
+    position: relative;
+    z-index: 0;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+h3 {
+    font-family: cursive;
+}
+
+.destination_info {
+    padding-bottom: 150px;
+    padding-top: 25px;
+}
+
+.bookTicket {
+    padding-left: 30px;
+    background-color: blue;
+    border: 10px;
+    width: 250px;
+    display: block;
+    position: absolute;
+    transform: translateY(-50%) translateX(-50%);
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+    left: 85%;
+    border-radius: 20px;
+    filter: drop-shadow(16px 16px 20px blue);
+    -webkit-filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.5));
+    cursor: pointer;
+    transition: background-color 0.1s ease-out;
+}
+
+.bookTicket:hover {
+    background-color: rgba(0, 0, 255, 0.596);
+}
