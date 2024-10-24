@@ -10,4 +10,4 @@ datetime
 
 requests
 
-mysql-connector-python==8.0.17
+mysql-connector-python==9.1.0
